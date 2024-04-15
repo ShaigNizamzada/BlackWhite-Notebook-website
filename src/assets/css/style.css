@@ -1,0 +1,211 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+body {
+  font-family: sans-serif;
+}
+.footer {
+  color: #f7f7f7;
+}
+.footer span,
+.footer i {
+  color: #000000;
+}
+.login,
+.register {
+  text-decoration: none;
+}
+.have-account {
+  text-decoration: none;
+  color: #000000;
+}
+.have-account:hover {
+  text-decoration: underline;
+}
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5)),
+    url("http://adamthemes.com/demo/html/blackwhite/images/slider/slide03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  color: #ffffff;
+}
+.text-section {
+  padding-top: 200px;
+}
+.hero-section .text-1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 300 !important;
+}
+.hero-section .text-2 {
+  font-size: 64px;
+  line-height: 74px;
+  font-weight: 700 !important;
+}
+.hero-section .text-3 {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+}
+@media (max-width: 1252px) {
+  .hero-section .section-1 {
+    width: 300px !important;
+    height: 220px !important;
+  }
+}
+@media (max-width: 990px) {
+  .hero-section .section-1 {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .hero-section .section-1 p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 770px) {
+  .hero-section .home-bottom-section {
+    visibility: hidden;
+  }
+}
+
+.hero-section .section-1 {
+  width: 400px;
+  height: 200px;
+  background-color: #ececec;
+  color: #000000;
+}
+.hero-section span {
+  font-weight: 600;
+  font-size: 22px !important;
+}
+.readmore {
+  text-decoration: none;
+  color: #000000;
+}
+.hero-section p {
+  color: #777777;
+}
+.services .header-text-1 {
+  font-size: 36px;
+}
+.services .header-text-2 {
+  font-size: 52px;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.services p {
+  color: #777777;
+}
+.services .services-section-2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("http://adamthemes.com/demo/html/blackwhite/images/parallax/parallax1.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+}
+.services-section-2 .text-section-services {
+  padding-top: 150px;
+}
+.services-section-2 .text-section-services span {
+  font-size: 46px;
+  line-height: 50px;
+  font-weight: 300;
+}
+.services-section-2 .text-section-services h1 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.services-section-2 .text-section-services p {
+  color: #000000 !important;
+  font-size: 36px;
+  font-weight: 300;
+}
+.card {
+  object-fit: contain;
+  height: 68vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.aboutUs span {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: -3px;
+}
+.aboutUs h4 {
+  font-size: 54px;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.aboutUs p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 24px;
+}
+.aboutUs .divider {
+  height: 21px;
+  background-image: url("http://adamthemes.com/demo/html/blackwhite/images/icons/divider1.png");
+  margin-left: -24px;
+  margin-top: 30px;
+}
+.btn {
+  border-radius: 0 !important;
+}
+.shopping-cart {
+  border-radius: 50%;
+}
+.btn-dark:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
+.login-button-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alert-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert {
+  border-radius: 0 !important;
+  width: 300px;
+  color: #000000;
+  font-weight: 500;
+}
+.trash-icon {
+  cursor: pointer;
+  font-size: 36px;
+}
+.trash-icon-2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px;
+}
+.trash-icon-2:hover {
+  color: white;
+  background-color: black;
+}
+.shopping-cart {
+  border-radius: 50% !important;
+}
+.my-profile {
+  text-decoration: none;
+  color: #000000;
+  margin: 0 25px;
+  transition: 0.3s ease;
+  font-size: 22px;
+  font-weight: 600;
+}
+.my-profile:hover {
+  color: rgb(237, 59, 59);
+}
