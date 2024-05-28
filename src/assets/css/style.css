@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
 body {
   font-family: sans-serif;
 }
@@ -22,7 +23,7 @@ body {
 }
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5)),
-    url("http://adamthemes.com/demo/html/blackwhite/images/slider/slide03.jpg");
+    url("../photo/slide01.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

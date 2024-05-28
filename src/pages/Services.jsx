@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import banner01 from "../assets/photo/banner01.jpg";
+import banner02 from "../assets/photo/banner02.jpg";
+import banner03 from "../assets/photo/banner03.jpg";
 const Services = () => {
   return (
     <>
@@ -14,11 +16,7 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img
-                  src="http://adamthemes.com/demo/html/blackwhite/images/banner/banner02.jpg"
-                  className="card-img-top"
-                  alt="banner"
-                />
+                <img src={banner01} className="card-img-top" alt="banner" />
                 <div className="card-body p-4">
                   <h5 className="card-title fw-bold">Integer Sit Rhoncus</h5>
                   <p>Nulla laoreet vestibiulunm deryosh lorem</p>
@@ -36,11 +34,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img
-                  src="http://adamthemes.com/demo/html/blackwhite/images/banner/banner01.jpg"
-                  className="card-img-top"
-                  alt="banner"
-                />
+                <img src={banner02} className="card-img-top" alt="banner" />
                 <div className="card-body p-4">
                   <h5 className="card-title fw-bold">Mauris With Quam</h5>
                   <p>Nulla laoreet vestibiulunm deryosh lorem</p>
@@ -58,11 +52,7 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img
-                  src="http://adamthemes.com/demo/html/blackwhite/images/banner/banner04.jpg"
-                  className="card-img-top"
-                  alt="banner"
-                />
+                <img src={banner03} className="card-img-top" alt="banner" />
                 <div className="card-body p-4">
                   <h5 className="card-title fw-bold">Quam Pellentesque Sit</h5>
                   <p>Nulla laoreet vestibiulunm deryosh lorem</p>
