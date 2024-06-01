@@ -3,13 +3,7 @@
 body {
   font-family: sans-serif;
 }
-.footer {
-  color: #f7f7f7;
-}
-.footer span,
-.footer i {
-  color: #000000;
-}
+/* Login-Register */
 .login,
 .register {
   text-decoration: none;
@@ -21,12 +15,13 @@ body {
 .have-account:hover {
   text-decoration: underline;
 }
+/* hero-section */
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.827), rgba(0, 0, 0, 0.5)),
-    url("../photo/slide01.jpg");
+    url("https://woodmart.xtemos.com/mega-electronics/wp-content/uploads/sites/9/2022/10/apple-shopping-event-full-img.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 90vh;
   color: #ffffff;
 }
@@ -48,6 +43,24 @@ body {
   line-height: 34px;
   font-weight: 300;
 }
+.hero-section .section-1 {
+  width: 400px;
+  height: 200px;
+  background-color: #ececec;
+  color: #000000;
+}
+.hero-section span {
+  font-weight: 600;
+  font-size: 22px !important;
+}
+.readmore {
+  text-decoration: none;
+  color: #000000;
+}
+.hero-section p {
+  color: #777777;
+}
+/* Responsive Hero */
 @media (max-width: 1252px) {
   .hero-section .section-1 {
     width: 300px !important;
@@ -69,23 +82,7 @@ body {
   }
 }
 
-.hero-section .section-1 {
-  width: 400px;
-  height: 200px;
-  background-color: #ececec;
-  color: #000000;
-}
-.hero-section span {
-  font-weight: 600;
-  font-size: 22px !important;
-}
-.readmore {
-  text-decoration: none;
-  color: #000000;
-}
-.hero-section p {
-  color: #777777;
-}
+/* Services */
 .services .header-text-1 {
   font-size: 36px;
 }
@@ -104,7 +101,7 @@ body {
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url("http://adamthemes.com/demo/html/blackwhite/images/parallax/parallax1.jpg");
+    url("https://woodmart.xtemos.com/mega-electronics/wp-content/uploads/sites/9/2022/10/apple-shopping-event-full-img.png");
   height: 70vh;
   background-position: center;
   background-size: cover;
@@ -128,12 +125,12 @@ body {
   font-size: 36px;
   font-weight: 300;
 }
-.card {
+.services .card {
   object-fit: contain;
   height: 68vh;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
+/* About-us */
 .aboutUs span {
   font-size: 48px;
   font-weight: 300;
@@ -161,6 +158,9 @@ body {
 }
 .shopping-cart {
   border-radius: 50%;
+}
+.table {
+  width: 100% !important;
 }
 .btn-dark:hover {
   background-color: #ffffff;
@@ -209,4 +209,71 @@ body {
 }
 .my-profile:hover {
   color: rgb(237, 59, 59);
+}
+.link {
+  color: #000000;
+}
+/* Footer */
+footer .nav-link {
+  color: #000000;
+}
+footer a {
+  text-decoration: none;
+}
+/* Slider */
+
+.slider-container .card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slick-slide {
+  padding: 0 10px; /* Adjust the value to set the desired gap */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Adjust the value to match the padding for proper alignment */
+}
+.category--section {
+  position: relative;
+  overflow: hidden;
+}
+.category--section img {
+  border-radius: 12px !important;
+  transition: 0.5s ease;
+}
+.category-section-text {
+  position: absolute;
+  top: 130px;
+  left: 25px;
+}
+.category-section-text h4 {
+  font-size: 18px;
+  z-index: 99;
+}
+.category--section:hover img {
+  transform: scale(1.1);
+}
+/* Description-section */
+.description-section {
+  margin-top: 56px;
+  padding: 16px;
+  width: 100%;
+  height: auto;
+}
+/* Blog */
+
+/* Company */
+.company-section-container {
+  background-image: url("https://woodmart.xtemos.com/games/wp-content/uploads/sites/14/2023/05/wd-vgs-discount-b.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100% !important;
+  margin: 0 auto;
+  padding: 25px;
+  height: 40vh;
+}
+.company-section .text--section {
+  margin: 100px 25px;
 }

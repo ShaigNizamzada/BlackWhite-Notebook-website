@@ -16,15 +16,24 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img src={banner01} className="card-img-top" alt="banner" />
-                <div className="card-body p-4">
-                  <h5 className="card-title fw-bold">Integer Sit Rhoncus</h5>
-                  <p>Nulla laoreet vestibiulunm deryosh lorem</p>
+                <img
+                  src="https://sifugeek.uk/wp-content/uploads/best-time-hardware-repairs-1024x682.jpg"
+                  className="card-img-top"
+                  alt="banner"
+                  width={50}
+                  height={210}
+                />
+                <div className="card-body card">
+                  <h5 className="card-title fw-bold">
+                    Notebook Repair & Upgradess
+                  </h5>
+                  <p>Hardware Repair & Replacement</p>
                   <hr />
                   <p className="card-text">
-                    Vestibulum at sem semper, varius lectus pellentque, blandit
-                    justo. Ut vel elit ullamcorper, sollicitudin consectetur
-                    ipsum.
+                    Keep your notebooks running smoothly with our expert repair
+                    and upgrade services. Whether it’s a software issue, our technicians ensure your device
+                    performs at its best. Enhance your productivity with memory
+                    upgrades, and performance optimization. <br />
                     <Link className="readmore" to="/">
                       Read More &rarr;
                     </Link>
@@ -34,16 +43,25 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img src={banner02} className="card-img-top" alt="banner" />
-                <div className="card-body p-4">
-                  <h5 className="card-title fw-bold">Mauris With Quam</h5>
-                  <p>Nulla laoreet vestibiulunm deryosh lorem</p>
+                <img
+                  src="https://previews.123rf.com/images/nddcenter/nddcenter1607/nddcenter160700095/61712489-showing-process-of-mobile-phone-repair-change-iphone-5-screen.jpg"
+                  className="card-img-top"
+                  alt="banner"
+                  width={50}
+                  height={210}
+                />
+                <div className="card-body card">
+                  <h5 className="card-title fw-bold">
+                    Cellphone Repair & Customization
+                  </h5>
+                  <p>Screen Repair & Replacement</p>
                   <hr />
                   <p className="card-text">
-                    Vestibulum at sem semper, varius lectus pellentque, blandit
-                    justo. Ut vel elit ullamcorper, sollicitudin consectetur
-                    ipsum.
-                    <Link className="readmore" to="/">
+                    Stay connected with our reliable cellphone repair services.
+                    From screen replacements to battery issues, we handle all
+                    types of cellphone problems. Personalize your device with
+                    custom skins and accessories to reflect your unique style.
+                    <Link className="readmore" to="/"> <br />
                       Read More &rarr;
                     </Link>
                   </p>
@@ -52,15 +70,24 @@ const Services = () => {
             </div>
             <div className="col-lg-4 col-md-12 col-sm-12 col-12">
               <div className="card mb-5">
-                <img src={banner03} className="card-img-top" alt="banner" />
-                <div className="card-body p-4">
-                  <h5 className="card-title fw-bold">Quam Pellentesque Sit</h5>
-                  <p>Nulla laoreet vestibiulunm deryosh lorem</p>
+                <img
+                  src="https://images.ctfassets.net/16nm6vz43ids/6fXVLoGo5UYz2yD4FHzxGD/6915ebbc4b172f6755b0afdb8100217a/Repair_or_replace_tablet.jpg"
+                  className="card-img-top"
+                  alt="banner"
+                  width={50}
+                  height={210}
+                />
+                <div className="card-body card">
+                  <h5 className="card-title fw-bold">
+                    Tablet Repair & Enhancements
+                  </h5>
+                  <p>Performance Enhancements</p>
                   <hr />
                   <p className="card-text">
-                    Vestibulum at sem semper, varius lectus pellentque, blandit
-                    justo. Ut vel elit ullamcorper, sollicitudin consectetur
-                    ipsum.
+                    Maximize the utility of your tablets with our comprehensive
+                    repair and enhancement services. Whether you use it for
+                    work, study, or play, we ensure tablet operates
+                    seamlessly. Get assistance with cracked screens,performance boosts. <br />
                     <Link className="readmore" to="/">
                       Read More &rarr;
                     </Link>

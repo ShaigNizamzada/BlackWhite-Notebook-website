@@ -28,7 +28,7 @@ const Register = () => {
     <div className="d-flex flex-column w-100 justify-content-center align-items-center">
       <h1 className="my-4">Sign up</h1>
 
-      <div className="col-5" onSubmit={registerSubmit}>
+      <div className="col-md-5 col-9" onSubmit={registerSubmit}>
         <form className="mt-4">
           <div className="mb-4">
             <input

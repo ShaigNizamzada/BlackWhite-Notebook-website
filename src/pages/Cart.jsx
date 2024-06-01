@@ -52,10 +52,17 @@ const Cart = () => {
                   <div className="item-number mt-4">{c + 1}</div>
                 </th>
                 <td>
-                  <img className="mt-1" width={100} src={item.images[0]} alt="" />
+                  <img
+                    className="mt-1"
+                    width={100}
+                    src={item.images[0]}
+                    alt=""
+                  />
                 </td>
                 <td>
-                  <div className="item-title mt-4">{item.title}</div>
+                  <div className="item-title mt-4">
+                    <span>{item.title}</span>
+                  </div>
                 </td>
                 <td>
                   <div className="item-price mt-4">

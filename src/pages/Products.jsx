@@ -8,7 +8,7 @@ const Products = () => {
     <>
       <h2 className="text-center my-5">Products</h2>
       <div className="container">
-        <div className="row">
+        <div className="row g-3">
           {product.map((item) => (
             <SingleProduct
               desc={item.description}

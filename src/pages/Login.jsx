@@ -26,7 +26,7 @@ const Login = () => {
     <div className="d-flex flex-column w-100 justify-content-center align-items-center">
       <h1 className="my-4">Sign in</h1>
 
-      <div className="col-5">
+      <div className="col-md-5 col-9">
         <form className="mt-4" onSubmit={loginSubmit}>
           <div className="mb-4">
             <input
