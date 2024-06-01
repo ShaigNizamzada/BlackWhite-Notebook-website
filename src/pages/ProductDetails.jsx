@@ -12,6 +12,7 @@ const ProductDetails = () => {
   const detailProduct = product.filter(
     (item) => slug(item.title.toString()) === url
   );
+  console.log(detailProduct[0]);
   return (
     <>
       {product.length === 0 ? (
