@@ -1,10 +1,14 @@
-import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { LuShoppingCart } from "react-icons/lu";
 import { useCart } from "react-use-cart";
 import { TbUser } from "react-icons/tb";
 
 const Header = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   const { totalItems } = useCart();
   return (
     <nav className="navbar navbar-expand-lg bg-white">
@@ -73,7 +77,7 @@ const Header = () => {
                 </button>
               </Link>
               <Link className="register" to="/register">
-                <button type="button" className="btn btn-dark me-5">
+                <button type="button" className="btn btn-dark">
                   Sign up
                 </button>
               </Link>

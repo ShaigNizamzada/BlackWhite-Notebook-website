@@ -7,7 +7,7 @@ import Company from "../components/Company";
 const Home = () => {
   return (
     <>
-      <div className="hero-section">
+      <div className="hero-section w-100">
         <div className="text-section text-center">
           <div className="text-1">We Take The</div>
           <div className="col-lg-8 mx-auto">

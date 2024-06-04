@@ -14,12 +14,14 @@ import Cart from "./pages/Cart";
 import ForgotPassword from "./pages/ForgotPassword";
 import Account from "./pages/Account";
 import ChangePassword from "./pages/ChangePassword";
+import TopToBtn from "./components/TopToScroll/TopToBtn";
 
 class App extends Component {
   render() {
     return (
       <>
         <BrowserRouter>
+          <TopToBtn />
           <Header />
           <Routes>
             <Route path="/" element={<Home />}></Route>

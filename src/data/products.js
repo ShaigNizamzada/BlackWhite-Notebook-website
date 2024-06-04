@@ -86,8 +86,8 @@ const products = [
     id: 6,
     title: "Asus TUF GamingFA507RM",
     images: [
+      "https://m.media-amazon.com/images/I/71XKl3-5UQL._AC_UF1000,1000_QL80_.jpg",
       "https://api.smartelectronics.az/uploads/products/597c8294709945159df0d887f11cb71dfe1%C3%BC65.JPG",
-      "https://api.smartelectronics.az/uploads/products/f8f2d12496244c6596f2047a857f56643.png",
       "https://api.smartelectronics.az/uploads/products/d99a0ca4eee8411a8de6e6be9e9c1c282.png",
     ],
     ram: "16 GB",

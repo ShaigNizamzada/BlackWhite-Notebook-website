@@ -2,6 +2,7 @@
 
 body {
   font-family: sans-serif;
+  overflow-x: hidden;
 }
 /* Login-Register */
 .login,
@@ -276,4 +277,14 @@ footer a {
 }
 .company-section .text--section {
   margin: 100px 25px;
+}
+/* TopToBtn */
+.top--to--scroll {
+  border-radius: 50%;
+  background-color: white;
+  transition: 0.5s ease;
+}
+.top--to--scroll:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
